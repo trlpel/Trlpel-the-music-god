@@ -1,0 +1,4 @@
+curl -H 'Authorization: NTQyODIxMDE1Njg.CaxN7w.tDYbyBKDbwox_yQo' \
+     -H "Content-Type: application/json" \
+     -X POST -d '{"name": "OAuth2 Test", "redirect_uris": ["http://localhost:5000/callback"]}' \
+     https://discordapp.com/api/oauth2/applications
